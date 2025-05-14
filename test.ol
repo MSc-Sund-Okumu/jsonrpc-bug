@@ -10,7 +10,7 @@ service Test {
     embed StringUtils as StringUtils
     embed File as File
     outputPort Out {
-        location: "socket://localhost:9753"
+        location: "socket://localhost:9743"
         protocol: "jsonrpc" {
 			transport = "lsp"
 			debug = Debug
